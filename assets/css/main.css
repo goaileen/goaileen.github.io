@@ -3950,3 +3950,22 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+		.dog-emoji {
+			opacity: 0; /* Start fully transparent */
+			margin-left: 10px; /* Add a little spacing */
+			animation: fadeIn 2s ease-in forwards; /* Animate over 2 seconds */
+			animation-delay: 6s; /* Delay fade-in by 1 second */
+		}
+		
+		/* Keyframes for fade-in */
+		@keyframes fadeIn {
+			0% {
+				opacity: 0;
+				transform: translateY(-10px); /* Slight upward position */
+			}
+			100% {
+				opacity: 1;
+				transform: translateY(0); /* End at original position */
+			}
+		}
