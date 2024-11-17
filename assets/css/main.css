@@ -3955,7 +3955,7 @@ input, select, textarea {
 			opacity: 0; /* Start fully transparent */
 			margin-left: 10px; /* Add a little spacing */
 			animation: fadeIn 2s ease-in forwards; /* Animate over 2 seconds */
-			animation-delay: 6s; /* Delay fade-in by 1 second */
+			animation-delay: 5s; /* Delay fade-in by 1 second */
 		}
 		
 		/* Keyframes for fade-in */
